@@ -1,0 +1,11 @@
+name: Como usar vairaveis de ambiente
+on:
+  worflow_dispatch:
+jobs:
+  env:
+    run-on: ubuntu-latest
+    steps:
+      - name: Execução
+        run:
+          echo "Valor XPTO"
+        
