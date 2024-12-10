@@ -1,6 +1,6 @@
 name: Como usar vairaveis de ambiente
 on:
-  worflow_dispatch:
+  workflow_dispatch:
 jobs:
   env:
     run-on: ubuntu-latest
